@@ -13,7 +13,7 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230b57ff'/%3E%3Cstop offset='1' stop-color='%230b57ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23420bff'/%3E%3Cstop offset='1' stop-color='%23420bff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23050fff'/%3E%3Cstop offset='1' stop-color='%23050fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23121CFF'/%3E%3Cstop offset='1' stop-color='%23121CFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230595FF'/%3E%3Cstop offset='1' stop-color='%230595FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238005FF'/%3E%3Cstop offset='1' stop-color='%238005FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
-
+    transition: .3s;
 }
 
 header {
@@ -28,8 +28,10 @@ header img {
     width: 200px;
 }
 
-header h1 {
+.conteudo h1 {
+    font-size: 2.2rem;
     padding: 1rem 0;
+    font-family: 'DynaPuff', cursive;
 }
 
 header h2 {
@@ -55,16 +57,17 @@ header h2 {
 
 .container .topicos {
     margin: .3rem 0;
-    padding: 2rem;
+    padding: 1rem;
 
 }
 
 
 .container .conteudo {
     margin: .3rem 0;
-    padding: 2rem;
+    padding: 1rem 2.4rem;
     margin-left: 2%;
 }
+
 .btn {
     font-size: 1.2rem;
     text-decoration: none;
@@ -73,6 +76,8 @@ header h2 {
 .conteudo h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    font-family: 'DynaPuff', cursive;
+
 }
 
 .conteudo p {
@@ -83,30 +88,66 @@ header h2 {
     line-height: 1.6rem;
 }
 
+.conteudo img {
+    max-width: 100%;
+    height: 350px;
+
+}
+
 .menu li {
     margin: .2rem 0;
 }
 
 .menu li a {
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: .8rem;
     width: 10rem;
+    opacity: .8;
 }
 
 .menu li a:hover {
     background-color: #121CFF;
     color: white;
+    opacity: 1;
+    transition: .8s;
 }
 
 .active {
     background-color: #121CFF;
-    color: white; 
+    color: white;
+    transition: .6s;
+    opacity: 1 !important;
 }
 
-#membros h2 {
-    margin-top: 6%;
-    margin-left: 6%;
-    margin-bottom: 2rem;
+.active:hover {
+    background-color: #d3a262ce;
+}
+
+#membros {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.card-membros {
+    margin-top: 1rem;
+    width: 200px;
+}
+
+.card-membros img {
+    width: 100%;
+    height: 200px;
+    border-radius: .3rem;
+}
+
+.card-membros h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card-membros h4 {
+    text-align: center;
 }
 
 .listStyle ol,
@@ -148,9 +189,10 @@ menu>ul>li>a {
     border: 2px solid gray;
 }
 
-hr{
-   font-size: medium;
+hr {
+    font-size: medium;
 }
+
 span#burger {
     display: block;
     color: #121CFF;
@@ -161,42 +203,73 @@ span#burger:hover {
     background: white;
     color: black;
 }
+
+.container-analise {
+    text-align: center;
+
+}
+.container-analise h2{
+    text-align: left;
+}
+.container-analise p {
+    text-indent: 0;
+    padding: .3rem 0;
+    text-align: justify;
+}
+
 @media screen and (max-width: 1000px) {
-    body{
+    body {
         background-image: none !important;
         background-color: #fff !important;
-     }
-    .container{
+    }
+
+    .container {
         display: block;
         width: 100%;
-        margin:0;
+        margin: 0;
     }
-    header{
+
+    header {
         width: 100%;
     }
+
     .menu li a {
         text-decoration: none;
         font-size: 1.1rem;
         width: 100%;
     }
-    #membros{
-        text-align: center;
-        font-size: 1rem;
-    }
+
     header img {
         width: 150px;
     }
+
     header h1 {
         padding: 0 0 1rem 0;
     }
-    hr{
+
+    hr {
         background-color: black;
     }
-   
+
+    #membros {
+        margin: 1rem auto;
+        display: block;
+    }
+
+    .card-membros {
+        margin: 1rem auto;
+        text-align: center;
+
+    }
+
+    .conteudo {
+        padding: 0 2rem !important;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {
-    
+
     span#burger {
         display: none;
     }
@@ -212,6 +285,6 @@ span#burger:hover {
     main {
         width: 768px;
     }
-   
+
 
 }
