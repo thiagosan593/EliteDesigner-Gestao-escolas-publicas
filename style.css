@@ -40,7 +40,7 @@ header h2 {
     width: 78%;
     background-color: #fff;
     margin: 0 auto;
-    min-height: 50vh;
+    min-height: 70vh;
     display: grid;
     grid-template-columns: .2fr 1fr;
     text-align: justify;
@@ -150,7 +150,9 @@ menu>ul>li>a {
     border: 2px solid gray;
 }
 
-
+hr{
+   font-size: medium;
+}
 span#burger {
     display: block;
     color: #121CFF;
@@ -161,7 +163,7 @@ span#burger:hover {
     background: white;
     color: black;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .container{
         display: block;
         width: 100%;
@@ -177,7 +179,7 @@ span#burger:hover {
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     
     span#burger {
         display: none;
