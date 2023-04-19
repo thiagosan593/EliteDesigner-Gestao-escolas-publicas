@@ -164,6 +164,10 @@ span#burger:hover {
 @media screen and (max-width: 800px) {
     .container{
         display: block;
+        width: 100%;
+    }
+    header{
+        width: 100%;
     }
     .menu li a {
         text-decoration: none;
