@@ -136,9 +136,7 @@ menu>ul {
     list-style-type: none;
 }
 
-menu>ul {
-    text-align: center;
-}
+
 
 menu>ul>li>a {
     display: block;
@@ -164,9 +162,14 @@ span#burger:hover {
     color: black;
 }
 @media screen and (max-width: 1000px) {
+    body{
+        background-image: none !important;
+        background-color: #fff !important;
+     }
     .container{
         display: block;
         width: 100%;
+        margin:0;
     }
     header{
         width: 100%;
@@ -176,7 +179,20 @@ span#burger:hover {
         font-size: 1.1rem;
         width: 100%;
     }
-
+    #membros{
+        text-align: center;
+        font-size: 1rem;
+    }
+    header img {
+        width: 150px;
+    }
+    header h1 {
+        padding: 0 0 1rem 0;
+    }
+    hr{
+        background-color: black;
+    }
+   
 }
 
 @media screen and (min-width: 1000px) {
@@ -196,6 +212,6 @@ span#burger:hover {
     main {
         width: 768px;
     }
-
+   
 
 }
