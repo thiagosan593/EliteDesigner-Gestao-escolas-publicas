@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+}
+
+body {
+    /* background: rgb(18, 28, 255);
+    background: linear-gradient(61deg, rgba(18, 28, 255, 0.8295693277310925) 10%, rgba(30, 38, 179, 0.7343312324929971) 40%, rgba(56, 179, 4, 0.8099614845938375) 100%) no-repeat; */
+    background-color: #121CFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230b57ff'/%3E%3Cstop offset='1' stop-color='%230b57ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23420bff'/%3E%3Cstop offset='1' stop-color='%23420bff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23050fff'/%3E%3Cstop offset='1' stop-color='%23050fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23121CFF'/%3E%3Cstop offset='1' stop-color='%23121CFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230595FF'/%3E%3Cstop offset='1' stop-color='%230595FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238005FF'/%3E%3Cstop offset='1' stop-color='%238005FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header {
+    width: 78%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+}
+
+header h1 {
+    padding: 1rem 0;
+}
+
+header h2 {
+    padding-bottom: 1rem;
+}
+
+.container {
+    width: 78%;
+    background-color: #fff;
+    margin: 0 auto;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    text-align: justify;
+
+}
+
+.menu {
+    list-style: none;
+    position: relative;
+
+}
+
+
+.container .topicos {
+    margin: .3rem;
+    padding: 2rem;
+
+}
+
+
+.container .conteudo {
+    margin: .3rem;
+    padding: 2rem;
+    margin-left: 10%;
+}
+
+.btn {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.conteudo h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.conteudo p {
+    text-indent: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+}
+
+.menu li {
+    margin: 1.3rem 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: .6rem;
+
+
+}
+
+.menu li a:hover {
+    background-color: #121CFF;
+    margin: 2rem 0;
+    color: white;
+    border-radius: 1rem;
+
+}
+
+.active {
+    background-color: #121CFF;
+    margin: 2rem 0;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#membros h2 {
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-bottom: 2rem;
+}
+
+.listStyle ol,
+li {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+
+}
+
+.listStyle ol li {
+    list-style: disc !important;
+    margin-left: 10%;
+    margin-bottom: .8rem;
+}
+
+.listStyle ul li {
+    list-style: decimal;
+    margin-left: 10%;
+    margin-bottom: .8rem;
+}
