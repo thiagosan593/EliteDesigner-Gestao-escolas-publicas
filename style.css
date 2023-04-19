@@ -53,20 +53,18 @@ header h2 {
 
 }
 
-
 .container .topicos {
-    margin: .3rem;
+    margin: .3rem 0;
     padding: 2rem;
 
 }
 
 
 .container .conteudo {
-    margin: .3rem;
+    margin: .3rem 0;
     padding: 2rem;
-    margin-left: 10%;
+    margin-left: 2%;
 }
-
 .btn {
     font-size: 1.2rem;
     text-decoration: none;
@@ -86,31 +84,23 @@ header h2 {
 }
 
 .menu li {
-    margin: 1.3rem 0;
+    margin: .2rem 0;
 }
 
 .menu li a {
     text-decoration: none;
     font-size: 1.1rem;
-    padding: .6rem;
-
-
+    width: 10rem;
 }
 
 .menu li a:hover {
     background-color: #121CFF;
-    margin: 2rem 0;
     color: white;
-    border-radius: 1rem;
-
 }
 
 .active {
     background-color: #121CFF;
-    margin: 2rem 0;
-    color: white;
-    border-radius: 1rem;
-    padding: 1rem;
+    color: white; 
 }
 
 #membros h2 {
@@ -136,4 +126,70 @@ li {
     list-style: decimal;
     margin-left: 10%;
     margin-bottom: .8rem;
+}
+
+menu {
+    display: none;
+}
+
+menu>ul {
+    list-style-type: none;
+}
+
+menu>ul {
+    text-align: center;
+}
+
+menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    padding: 4px;
+
+    color: black;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+
+span#burger {
+    display: block;
+    color: #121CFF;
+    cursor: pointer;
+}
+
+span#burger:hover {
+    background: white;
+    color: black;
+}
+@media screen and (max-width: 800px) {
+    .container{
+        display: block;
+    }
+    .menu li a {
+        text-decoration: none;
+        font-size: 1.1rem;
+        width: 25rem;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    
+    span#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+
+
 }
