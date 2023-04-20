@@ -16,7 +16,9 @@ body {
     /* background-color: #c4c1c1; */
     transition: .3s;
 }
-
+.display-none{
+    display: none;
+}
 header {
     width: 78%;
     background-color: #fff;
@@ -272,6 +274,7 @@ span#burger:hover {
 
 }
 
+
 @media screen and (min-width: 1000px) {
 
     span#burger {
@@ -291,4 +294,22 @@ span#burger:hover {
     }
 
 
+}
+/*Loading*/
+#fade-container {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background: #fff;
+    z-index: 10;
+
+}
+
+#fade-container img {
+  text-align: center;
+  margin: 6rem auto;
+  align-items: center;
+  margin-left: 30%;
 }
