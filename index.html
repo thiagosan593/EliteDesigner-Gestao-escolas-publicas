@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="style.css">
-    <script src="js/script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;1,100;1,300&display=swap"
-        rel="stylesheet">
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="style.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    
 <body onresize="mudouTamanho()">
     <header id="home">
-        <a href="index.html"> <img src="images/ezgif-1-b15c41b53c.gif" alt="Home" srcset=""></a>
-        <h2>Nome-projeto</h2>
+        <a href="index.html"> <img src="images/ezgif-1-b15c41b53c.gif" alt="Home" srcset=""></a>    
+        <h2>Nome-projeto</h2>   
         <hr>
     </header>
     <section class="container">
@@ -30,17 +24,49 @@
             </span>
             <menu id="itens" class="menu">
                 <ul>
-                    <li><a href="Equipe.html">Equipe</a></li>
+                    <li><a class="active" href="index.html">Inicio</a></li>
                     <li><a href="Proposta.html">Proposta</a></li>
                     <li><a href="breafing.html">Briefing</a></li>
                     <li><a href="sistema-concorrente.html">Sistema Concorrente</a></li>
+                    <li><a href="Atas.html">Atas do Processo</a></li>
                 </ul>
             </menu>
         </section>
 
+        <section class="conteudo">
+                <section class="Apresentação">
+                    <h2>Apresentação:</h2>
+                    <p>
+                        Projeto A3 da disciplina de Design de Interfaces para Dispositivos Móveis, ministrada pelo Professor Fabrício Gabriel Olívio, tem como objetivo a criação de um projeto educacional que envolve a interface do usuário, seguindo as diretrizes da ONU para o Objetivo de Desenvolvimento Sustentável número 4.
 
+                        Esperamos que nosso trabalho possa contribuir significativamente para a melhoria da experiência do usuário em projetos educacionais, levando em conta questões fundamentais como acessibilidade, usabilidade e inclusão, e, ao mesmo tempo, promover a conscientização sobre a importância da educação para o desenvolvimento sustentável.
+                        
+                        Com isso, esperamos contribuir para a construção de um futuro mais justo e equitativo para todos, em consonância com as metas estabelecidas pela ONU. 
+                    </p>
+                </section>
+
+            <h2>Equipe:</h2>
+            <div id="membros">
+               
+                    <div class="card-membros">
+                        <img src="images/Screenshot_6.png" alt="">
+                       <h3>THIAGO DOS SANTOS</h3>
+                       <h4>1272117023</h4>
+                    </div>
+                    <div class="card-membros">
+                        <img src="images/User-avatar.svg.png" alt="">
+                       <h3>ALISON BRAZ SANTOS</h3>
+                       <h4>1272116871</h4>
+                    </div>
+                    <div class="card-membros">
+                        <img src="images/User-avatar.svg.png" alt="">
+                       <h3>LUCAS SEIJI MATSUFUGI</h3>
+                       <h4>822130129</h4>
+                    </div>
+
+            </div>
+        </section>
     </section>
-
 </body>
 
 </html>
