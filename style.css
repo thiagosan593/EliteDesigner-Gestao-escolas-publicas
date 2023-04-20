@@ -17,7 +17,8 @@ body {
     transition: .3s;
 }
 .display-none{
-    display: none;
+    display: none !important;
+    opacity: 100% !important;
 }
 header {
     width: 78%;
@@ -271,6 +272,9 @@ span#burger:hover {
         height: 200px;
     
     }
+    #fade-container img{
+        margin-top: 40%;
+    }
 
 }
 
@@ -293,23 +297,33 @@ span#burger:hover {
         width: 768px;
     }
 
+    #fade-container img {
+        width:50%;
+        margin-left: 30%;
+      }
 
 }
+
+
+
 /*Loading*/
 #fade-container {
-    position: relative;
+    position: absolute;
     left: 0px;
     right: 0px;
     bottom: 0px;
     top: 0px;
     background: #fff;
     z-index: 10;
+    width: 100%;
+    min-height: 100vh;
 
 }
 
 #fade-container img {
+  width: 20%;
   text-align: center;
-  margin: 6rem auto;
+  margin: 8rem auto;
   align-items: center;
-  margin-left: 30%;
+  margin-left: 40%;
 }

@@ -17,13 +17,15 @@ function clickMenu(){
  window.addEventListener("load", function() {
 
   var fadeContainer = document.querySelector("#fade-container");
-  var body = document.querySelector(".display-none");
+  var displayr = document.querySelector(".display-none");
  
 setTimeout(function() {
     
       fadeContainer.style.display = "none";
-      body.classList.remove('display-none')
+      displayr.classList.remove("display-none")
+      
+},1800);
   
-}, 1500);
 
 });
+
