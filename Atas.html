@@ -35,13 +35,27 @@
             font-weight: bolder !important;
             margin-bottom: 0 !important;
         }
+
+        .table {
+            text-align: center;
+            width: 100%;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif !important;
+            line-height: 1.6rem !important;
+            font-weight: bold !important;
+        }
+        .tabelas{
+            margin-bottom: 2rem !important;
+        }
     </style>
 </head>
 
 <body onresize="mudouTamanho()">
     <header id="home">
         <a href="index.html"> <img src="images/ezgif-1-b15c41b53c.gif" alt="Home" srcset=""></a>
-        <h2>Nome-projeto</h2>
+        <h2>System Edu</h2>   
         <hr>
     </header>
     <section class="container">
@@ -56,12 +70,108 @@
                     <li><a href="breafing.html">Briefing</a></li>
                     <li><a href="sistema-concorrente.html">Sistema Concorrente</a></li>
                     <li><a class="active" href="sistema-concorrente.html">Atas do Processo</a></li>
+                    <li><a href="ferramentas.html">Ferramentas</a></li>
                 </ul>
             </menu>
         </section>
         <section class="conteudo">
             <div id="atas-processo">
+                <div id="Ata-proposta" class="tabelas">
+                    <h2>Proposta:</h2>
+                    <table class="table table-striped table-white table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Autor</th>
+                                <th scope="col">Data</th>
+                                <th scope="col">Descrição</th>
 
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Alisson</th>
+                                <td>27/03</td>
+                                <td>Sugestão de Projeto</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thiago / Alisson </th>
+                                <td>28/03</td>
+                                
+                                <td>Elaboração da Proposta</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div id="Briefing" class="tabelas">
+                <h2>Briefing:</h2>
+                <table class="table table-striped table-white table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Autor</th>
+                            <th scope="col">Data</th>
+                            
+                            <th scope="col">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Thiago</th>
+                            <td>-</td>
+                          
+                            <td>Elaboração Perguntas</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Thiago / Alisson / Lucas </th>
+                            <td>-</td>
+                            
+                            <td>Entevista</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lucas </th>
+                            <td>-</td>
+                            <td>Revisão</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div id="Sistema-concorrente" class="tabelas">
+                <h2>Sistema Concorrente:</h2>
+                <table class="table table-striped table-white table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Autor</th>
+                            <th scope="col">Data</th>
+                           
+                            <th scope="col">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">-</th>
+                            <td>-</td>
+                            
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">- </th>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">-</th>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                    </tbody>
+                </table>
             </div>
         </section>
 
