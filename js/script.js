@@ -24,8 +24,8 @@ setTimeout(function() {
       fadeContainer.style.display = "none";
       displayr.classList.remove("display-none")
       
-},1800);
-  
+},2500);
+ 
 
 });
 

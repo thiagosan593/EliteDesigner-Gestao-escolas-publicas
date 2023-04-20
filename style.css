@@ -218,7 +218,27 @@ span#burger:hover {
     padding: .3rem 0;
     text-align: justify;
 }
+/*Loading*/
+#fade-container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background: #fff;
+    z-index: 10;
+    width: 100%;
+    min-height: 100vh;
 
+}
+
+#fade-container img {
+  width: 20%;
+  text-align: center;
+  margin: 8rem auto;
+  align-items: center;
+  margin-left: 40%;
+}
 @media screen and (max-width: 1000px) {
     body {
         background-image: none !important;
@@ -272,8 +292,11 @@ span#burger:hover {
         height: 200px;
     
     }
+  
     #fade-container img{
+       width: 40%;
         margin-top: 40%;
+        margin-left: 30%;
     }
 
 }
@@ -306,24 +329,3 @@ span#burger:hover {
 
 
 
-/*Loading*/
-#fade-container {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-    background: #fff;
-    z-index: 10;
-    width: 100%;
-    min-height: 100vh;
-
-}
-
-#fade-container img {
-  width: 20%;
-  text-align: center;
-  margin: 8rem auto;
-  align-items: center;
-  margin-left: 40%;
-}
