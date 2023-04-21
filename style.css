@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0 ;
+    margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6rem;
@@ -9,17 +9,19 @@
 body {
     /* background: rgb(18, 28, 255);
     background: linear-gradient(61deg, rgba(18, 28, 255, 0.8295693277310925) 10%, rgba(30, 38, 179, 0.7343312324929971) 40%, rgba(56, 179, 4, 0.8099614845938375) 100%) no-repeat; */
-     background-color: #121CFF;
+    background-color: #121CFF;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230b57ff'/%3E%3Cstop offset='1' stop-color='%230b57ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23420bff'/%3E%3Cstop offset='1' stop-color='%23420bff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23050fff'/%3E%3Cstop offset='1' stop-color='%23050fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23121CFF'/%3E%3Cstop offset='1' stop-color='%23121CFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230595FF'/%3E%3Cstop offset='1' stop-color='%230595FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238005FF'/%3E%3Cstop offset='1' stop-color='%238005FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
     background-attachment: fixed;
-    background-size: cover; 
+    background-size: cover;
     /* background-color: #c4c1c1; */
     transition: .3s;
 }
-.display-none{
+
+.display-none {
     display: none !important;
     opacity: 100% !important;
 }
+
 header {
     width: 78%;
     background-color: #fff;
@@ -34,8 +36,8 @@ header img {
 
 .conteudo h1 {
     font-size: 2.2rem;
-    padding: 1rem 0  ;
-  
+    padding: 1rem 0;
+
 }
 
 header h2 {
@@ -44,8 +46,8 @@ header h2 {
 }
 
 
-.container { 
-    width: 78%; 
+.container {
+    width: 78%;
     background-color: #fff;
     margin: 0 auto;
     min-height: 70vh;
@@ -54,6 +56,7 @@ header h2 {
     text-align: justify;
 
 }
+
 .menu {
     list-style: none;
     position: relative;
@@ -61,7 +64,7 @@ header h2 {
 }
 
 .container .topicos {
-    margin: .3rem 0 ;
+    margin: .3rem 0;
     padding: 1rem;
 
 }
@@ -210,14 +213,17 @@ span#burger:hover {
     text-align: center;
 
 }
-.container-analise h2{
+
+.container-analise h2 {
     text-align: left;
 }
+
 .container-analise p {
     text-indent: 0;
     padding: .3rem 0;
     text-align: justify;
 }
+
 /*Loading*/
 #fade-container {
     position: absolute;
@@ -233,12 +239,13 @@ span#burger:hover {
 }
 
 #fade-container img {
-  width: 20%;
-  text-align: center;
-  margin: 8rem auto;
-  align-items: center;
-  margin-left: 40%;
+    width: 20%;
+    text-align: center;
+    margin: 8rem auto;
+    align-items: center;
+    margin-left: 40%;
 }
+
 @media screen and (max-width: 1000px) {
     body {
         background-image: none !important;
@@ -287,13 +294,14 @@ span#burger:hover {
     .conteudo {
         padding: 0 2rem !important;
     }
+
     .conteudo img {
         max-width: 100%;
         height: 200px;
-    
+
     }
-  
- 
+
+
 
 }
 
@@ -316,12 +324,13 @@ span#burger:hover {
         width: 768px;
     }
 
-    #fade-container img {
-        width:25%;
-        margin-left: 38%;
-      }
 
 }
 
-
-
+@media screen and (max-width: 520px) {
+    #fade-container img {
+        width: 50%;
+        margin-top: 30vh;
+        margin-left: 26%;
+    }
+}

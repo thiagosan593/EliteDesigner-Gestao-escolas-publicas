@@ -9,7 +9,7 @@ setTimeout(function() {
       fadeContainer.style.display = "none";
       displayr.classList.remove("display-none")
       
-},2500);
+},3000);
  
 
 });
