@@ -235,15 +235,19 @@ span#burger:hover {
     z-index: 10;
     width: 100%;
     min-height: 100vh;
+    text-align: center;
 
 }
 
 #fade-container img {
     width: 20%;
     text-align: center;
-    margin: 8rem auto;
+    margin: 8rem auto 0 auto;
     align-items: center;
-    margin-left: 40%;
+   
+}
+#fade-container p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1000px) {
