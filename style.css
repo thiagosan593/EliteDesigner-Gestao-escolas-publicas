@@ -14,7 +14,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     /* background-color: #c4c1c1; */
-    transition: .3s;
+    transition: 4;
 }
 
 .display-none {
