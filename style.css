@@ -19,7 +19,7 @@ body {
 
 a {
     text-decoration: none;
-    opacity: .9;
+    color: #000;
 }
 
 a:hover {
@@ -272,6 +272,10 @@ span#burger:hover {
 .proximapag a{
     color: #121CFF;
 }
+.disabled-link {
+    pointer-events: none;
+    color: #8a8484;
+  }
 
 @media screen and (max-width: 1000px) {
     body {
