@@ -332,9 +332,15 @@ span#burger:hover {
 }
 
 @media screen and (max-width: 520px) {
+    #fade-container{
+        width: 100%;
+    }
     #fade-container img {
         width: 50%;
         margin-top: 30vh;
-        margin-left: 26%;
+        
+    }
+    #fade-container p{
+      font-size: 1rem;   
     }
 }
