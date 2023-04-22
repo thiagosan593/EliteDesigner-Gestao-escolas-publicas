@@ -1,6 +1,6 @@
 var fraseLoader = document.querySelector("#frase-loader")
 
-
+let links = document.querySelectorAll("a")
 
 
 function fraseLoaderAle() {
@@ -40,6 +40,7 @@ function fraseLoaderAle() {
 
 fraseLoaderAle()
 
+
 window.addEventListener("load", function () {
 
   var fadeContainer = document.querySelector("#fade-container");
@@ -70,3 +71,10 @@ function clickMenu() {
   }
 }
 
+function disabled(){
+  /*Ferramentas */
+   links[6].classList.add("disabled-link")
+  
+}
+
+disabled()
