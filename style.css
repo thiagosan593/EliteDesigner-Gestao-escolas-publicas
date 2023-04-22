@@ -276,7 +276,28 @@ span#burger:hover {
     pointer-events: none;
     color: #8a8484;
   }
+.container-ferramentas{
+    text-align: center;
+}
+.container-ferramentas h2{
+ margin-top: 2.3rem;
+}
+.container-ferramentas p{
+    text-align: left;
+    text-indent: 0;
+    margin-top: 0;
+}
+.container-ferramentas img{
+    width: 200px;
+    height: 200px;
+}
+.container-ferramentas ul li{
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: .3rem;
+    margin-left: 4%;
 
+}
 @media screen and (max-width: 1000px) {
     body {
         background-image: none !important;
