@@ -57,7 +57,7 @@ window.addEventListener("load", function () {
 });
 
 function mudouTamanho() {
-  if (window.innerWidth >= 1000) {
+  if (window.innerWidth >= 1025) {
     itens.style.display = 'block'
   } else {
     itens.style.display = 'none'

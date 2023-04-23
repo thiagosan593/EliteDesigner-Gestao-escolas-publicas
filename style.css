@@ -7,13 +7,10 @@
 }
 
 body {
-    /* background: rgb(18, 28, 255);
-    background: linear-gradient(61deg, rgba(18, 28, 255, 0.8295693277310925) 10%, rgba(30, 38, 179, 0.7343312324929971) 40%, rgba(56, 179, 4, 0.8099614845938375) 100%) no-repeat; */
-    background-color: #121CFF;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230b57ff'/%3E%3Cstop offset='1' stop-color='%230b57ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23420bff'/%3E%3Cstop offset='1' stop-color='%23420bff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23050fff'/%3E%3Cstop offset='1' stop-color='%23050fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23121CFF'/%3E%3Cstop offset='1' stop-color='%23121CFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230595FF'/%3E%3Cstop offset='1' stop-color='%230595FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238005FF'/%3E%3Cstop offset='1' stop-color='%238005FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    background-color: #0D13FF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23192fb9'/%3E%3Cstop offset='1' stop-color='%23192fb9' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230319da'/%3E%3Cstop offset='1' stop-color='%230319da' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23162f8e'/%3E%3Cstop offset='1' stop-color='%23162f8e' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230D13FF'/%3E%3Cstop offset='1' stop-color='%230D13FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23253874'/%3E%3Cstop offset='1' stop-color='%23253874' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230522AA'/%3E%3Cstop offset='1' stop-color='%230522AA' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
-    /* background-color: #c4c1c1; */
     transition: 4;
 }
 
@@ -159,11 +156,15 @@ header h2 {
     width: 100%;
     height: 200px;
     border-radius: .3rem;
+    opacity: .8;
 }
 
 .card-membros h3 {
     font-size: .8rem;
     text-align: center;
+}
+.card-membros img:hover{
+    opacity: 1;
 }
 
 .card-membros h4 {
@@ -330,7 +331,7 @@ span#burger:hover {
 iframe{
     border: none;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
     body {
         background-image: none !important;
         background-color: #fff !important;
@@ -393,7 +394,7 @@ iframe{
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
 
     span#burger {
         display: none;
