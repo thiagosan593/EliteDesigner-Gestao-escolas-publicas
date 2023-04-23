@@ -298,6 +298,38 @@ span#burger:hover {
     margin-left: 4%;
 
 }
+.questionario {
+    margin: 1rem;
+    width: 97%;
+    border: 1px solid #a09595;
+    border-radius: 1rem;
+}
+
+.questionario img {
+    padding: 1rem;
+}
+ .questionario .pergunta{
+  width: 100%;
+  height: 50%;
+}
+.questionario p{
+    padding: 1rem 3.1rem;
+    font-size: .9rem;
+    text-align: justify;
+    text-indent: 1.3%;
+}
+.questionario h5{
+    margin-left: 5%;
+}
+#info a{
+    text-decoration: underline;
+}
+#info{
+    margin-bottom: 2rem;
+}
+iframe{
+    border: none;
+}
 @media screen and (max-width: 1000px) {
     body {
         background-image: none !important;
@@ -352,7 +384,10 @@ span#burger:hover {
         height: 200px;
 
     }
-
+    .questionario img{
+        width:100%;
+        height: 70%;
+     }
 
 
 }
@@ -375,7 +410,7 @@ span#burger:hover {
     main {
         width: 768px;
     }
-
+    
 
 }
 
@@ -393,4 +428,5 @@ span#burger:hover {
     #fade-container p {
         font-size: 1rem;
     }
+   
 }
