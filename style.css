@@ -30,7 +30,7 @@ a:hover {
 }
 
 header {
-    width: 78%;
+    width:86%;
     background-color: #fff;
     margin: 0 auto;
     text-align: center;
@@ -54,7 +54,7 @@ header h2 {
 
 
 .container {
-    width: 78%;
+    width: 86%;
     background-color: #fff;
     margin: 0 auto;
     min-height: 100vh;
@@ -376,17 +376,12 @@ br{
         background-color: black;
     }
 
-    #membros {
-        margin: 1rem auto;
-        display: block;
-    }
-
     .card-membros {
         margin: 1rem auto;
         text-align: center;
-
+        width: 160px;
     }
-
+ 
     .conteudo {
         padding: 0 2rem !important;
     }
@@ -425,7 +420,19 @@ br{
     
 
 }
-
+@media screen and (max-width: 620px){
+    
+     #membros {
+        grid-template-columns: 1fr 1fr;
+        gap: .6rem;
+        
+    } 
+    .card-membros {
+        margin-top: 1rem;
+        width: 200px;
+    }
+    
+}
 @media screen and (max-width: 520px) {
     #fade-container {
         width: 100%;
@@ -440,5 +447,11 @@ br{
     #fade-container p {
         font-size: 1rem;
     }
+    #membros {
+        grid-template-columns: 1fr;
+        gap: .6rem;
+        
+    } 
+    
    
 }
