@@ -149,14 +149,14 @@ header h2 {
 
 .card-membros {
     margin-top: 1rem;
-    width: 180px;
+    width: 150px;
 }
 
 .card-membros img {
     width: 100%;
-    height: 200px;
+    height: 180px;
     border-radius: .3rem;
-    opacity: .8;
+    opacity: .9;
 }
 
 .card-membros h3 {
