@@ -73,7 +73,7 @@ function clickMenu() {
 
 function disabled(){
   /*Ferramentas */
-   links[7].classList.add("disabled-link")
+  //  links[7].classList.add("disabled-link")
   
 }
 

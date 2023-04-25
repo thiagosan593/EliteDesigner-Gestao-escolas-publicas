@@ -30,7 +30,7 @@ a:hover {
 }
 
 header {
-    width:86%;
+    width:84%;
     background-color: #fff;
     margin: 0 auto;
     text-align: center;
@@ -39,6 +39,9 @@ header {
 
 header img {
     width: 350px;
+}
+#itens ul li{
+    text-align: right;
 }
 
 .conteudo h1 {
@@ -54,7 +57,7 @@ header h2 {
 
 
 .container {
-    width: 86%;
+    width: 84%;
     background-color: #fff;
     margin: 0 auto;
     min-height: 100vh;
@@ -265,10 +268,8 @@ span#burger:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .proximapag{
-    margin-top: 3rem;
     display: none;
-    /* display: flex; */
-    justify-content: space-between;
+ 
 }
 .proximapag a{
     color: #121CFF;
@@ -395,6 +396,12 @@ br{
         width:100%;
         height: 70%;
      }
+     .proximapag{
+        margin: 3rem 0;
+         display: flex; 
+        justify-content: space-between;
+
+    }
 
 
 }
@@ -417,6 +424,7 @@ br{
     main {
         width: 768px;
     }
+
     
 
 }
