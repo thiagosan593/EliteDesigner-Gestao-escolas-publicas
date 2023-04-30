@@ -400,6 +400,20 @@ iframe {
     width: 100%;
    height: auto;
 }
+.site-map img{
+    width: 100%;
+    height: 900px;
+}
+.site-map p{
+  text-indent: 0;
+}
+.site-map a{
+ color: #0D13FF;
+ font-size: 1.3rem;
+}
+.site-map a:hover{
+    color: red;
+}
 @media screen and (max-width: 1025px) {
     body {
         background-image: none !important;

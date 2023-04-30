@@ -72,8 +72,10 @@ function clickMenu() {
 }
 
 function disabled(){
-  /*Ferramentas */
-  //  links[7].classList.add("disabled-link")
+  /*SitesMap */
+    links[7].classList.add("disabled-link")
+     links[8].classList.add("disabled-link")
+    links[9].classList.add("disabled-link")
   
 }
 
