@@ -8,16 +8,16 @@ function fraseLoaderAle() {
 
   switch (numAle) {
     case 1:
-      fraseLoader.innerText = " Transformando ideias em realidade: o site está em carregamento"
+      fraseLoader.innerText = " Transformando ideias em realidade: o site está em carregamento."
       break;
     case 2:
       fraseLoader.innerText = " O processo de design é uma busca constante pela perfeição."
       break;
     case 3:
-      fraseLoader.innerText = " Aperfeiçoando o visual"
+      fraseLoader.innerText = " Aperfeiçoando o visual."
       break;
     case 4:
-      fraseLoader.innerText = "Design que inspira"
+      fraseLoader.innerText = "Design que inspira."
       break;
     case 5:
       fraseLoader.innerText = "Design é a arte de tornar o complicado simples. - Paul Rand"
@@ -25,12 +25,12 @@ function fraseLoaderAle() {
     case 6:
       fraseLoader.innerText = " O design é um processo, estamos apenas no início: aguarde enquanto carregamos."
       break;
-      case 7:
+    case 7:
       fraseLoader.innerText = "O design é a arte de resolver problemas: estamos carregando as soluções."
-     
+
       break;
-      case 8:
-      fraseLoader.innerText = "O design é o poder da expressão"
+    case 8:
+      fraseLoader.innerText = "O design é o poder da expressão."
       break;
     default:
       fraseLoader.innerText = "O processo de design é uma jornada contínua de aprendizado e aprimoramento constante."
@@ -71,12 +71,11 @@ function clickMenu() {
   }
 }
 
-function disabled(){
+function disabled() {
   /*SitesMap */
-    links[7].classList.add("disabled-link")
-     links[8].classList.add("disabled-link")
-    links[9].classList.add("disabled-link")
-  
+  links[8].classList.add("disabled-link")
+  links[9].classList.add("disabled-link")
+
 }
 
 disabled()
