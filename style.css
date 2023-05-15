@@ -417,6 +417,16 @@ iframe {
 .site-map a:hover{
     color: red;
 }
+
+.wireframes img{
+    border-radius: .4rem;
+    width: 100%;
+}
+.useflows img{
+    width: 100%;
+   height: auto;
+   border-radius: .4rem;
+}
 @media screen and (max-width: 1025px) {
     body {
         background-image: none !important;
