@@ -74,7 +74,7 @@ function clickMenu() {
 function disabled() {
   /*SitesMap */
   // links[8].classList.add("disabled-link")
-  // links[9].classList.add("disabled-link")
+  links[10].classList.add("disabled-link")
 
 }
 
