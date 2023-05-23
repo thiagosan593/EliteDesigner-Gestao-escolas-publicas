@@ -283,7 +283,7 @@ span#burger:hover {
 
 }
 
-.proximapag a {
+.proximapag a, .wireframes a {
     color: #121CFF;
 }
 
@@ -354,7 +354,8 @@ span#burger:hover {
 #info {
     margin-bottom: 2rem;
 }
-#info p{
+
+#info p {
     text-align: left;
 }
 
@@ -391,43 +392,56 @@ iframe {
     text-indent: 0;
     padding: 0 .3rem;
 }
-.persona h5{
+
+.persona h5 {
     margin-left: 2.6%;
 }
 
-.mapa{
+.mapa {
     width: 100%;
 }
-.mapa img{
+
+.mapa img {
     padding: 0%;
     margin: 0;
     width: 100%;
-   height: auto;
+    height: auto;
 }
-.site-map img{
+
+.site-map img {
     width: 100%;
     height: auto;
 }
-.site-map p{
-  text-indent: 0;
+
+.site-map p {
+    text-indent: 0;
 }
-.site-map a{
- color: #0D13FF;
- font-size: 1.3rem;
+
+.site-map a {
+    color: #0D13FF;
+    font-size: 1.3rem;
 }
-.site-map a:hover{
+
+.site-map a:hover {
     color: red;
 }
 
-.wireframes img{
+.wireframes img {
     border-radius: .4rem;
     width: 100%;
+    height: 40rem;
 }
-.useflows img{
+
+.useflows img {
     width: 100%;
-   height: auto;
-   border-radius: .4rem;
+    height: auto;
+    border-radius: .4rem;
 }
+
+.D_system {
+    width: 100%;
+}
+
 @media screen and (max-width: 1025px) {
     body {
         background-image: none !important;
@@ -494,15 +508,17 @@ iframe {
         height: 300px;
 
     }
-    .wireframes img{
+
+    .wireframes img {
         border-radius: .4rem;
         width: 100%;
         min-height: 400px;
     }
-    .useflows img{
+
+    .useflows img {
         width: 100%;
-       height: auto;
-       border-radius: .4rem;
+        height: auto;
+        border-radius: .4rem;
     }
 
 }
@@ -531,6 +547,18 @@ iframe {
 }
 
 @media screen and (max-width: 620px) {
+    .conteudo h1 {
+        text-align: left;
+        font-size: 1.4rem;
+
+    
+    }
+    .conteudo h2 {
+        text-align: left;
+        font-size: 1.1rem;
+    
+    }
+    
 
     #membros {
         grid-template-columns: 1fr 1fr;
@@ -556,11 +584,11 @@ iframe {
         padding: 1rem 0;
 
     }
-    
-.persona div img{
-    width: 500px;
-    
-   }
+
+    .persona div img {
+        width: 500px;
+
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -583,8 +611,9 @@ iframe {
         gap: .6rem;
 
     }
-     .wireframes img{
-      
+
+    .wireframes img {
+
         border-radius: .4rem;
         width: 100%;
         min-height: 200px;
